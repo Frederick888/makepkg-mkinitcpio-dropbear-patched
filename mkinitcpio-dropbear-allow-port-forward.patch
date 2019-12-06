@@ -1,0 +1,11 @@
+--- a/dropbear_hook    	2019-12-06 19:24:18.817583229 +1100
++++ b/dropbear_hook	2019-12-06 19:24:31.224207809 +1100
+@@ -6,7 +6,7 @@
+   mount -t devpts devpts /dev/pts
+ 
+   echo "Starting dropbear"
+-  /usr/sbin/dropbear -E -s -j -k
++  /usr/sbin/dropbear -E -s
+ }
+ 
+ run_cleanuphook ()
